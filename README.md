@@ -1,12 +1,12 @@
 ## Fnginx DockerFile (Flask & Nginx)
 
-In order to meet need of serving static html files and dynamic python web-services having flask and nginx on one machine is more efficient than rendering static html file in python embeded code in Flask or any framework.
+In order to meet the need of serving static html files and dynamic python web-services having flask and nginx on one machine is more efficient than rendering static html file in python embeded code in Flask or any framework.
 
 ### Build and run
 * docker build -t name/tag .
 * docker run -d -p 80:80 name/tag
 
-### Write your web-servie
+### Write your web-service
 /app directory contains sample flask app routed to /service with just a welcome message return. You can fork this repo and more complex web-services that can return dynamic responses.
 
 ### Proxy Tips
