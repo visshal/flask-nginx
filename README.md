@@ -28,7 +28,7 @@ export HTTP_PROXY=http://your.proxy.name:8080
 export HTTPS_PROXY=http://your.proxy.name:8080
 * docker-machine restart default
 
-### Run docke-daemon behind proxy (on Ubuntu)
+### Run docker-daemon behind proxy (on Ubuntu)
 * Add following line in /etc/default/docker
 export HTTP_PROXY=http://your.proxy.name:8080
 export HTTPS_PROXY=http://your.proxy.name:8080
