@@ -10,8 +10,6 @@ In order to meet the need of serving static html files and dynamic python web-se
 /app directory contains sample flask app routed to /service with just a welcome message return. You can fork this repo and more complex web-services that can return dynamic responses.
 
 ### Proxy Tips
-## For Docker (Machine/deamon)
-## OS/X
 * Behind proxy DNS server to 8.8.8.8 in default vm of docker where docker host runs
 * And set http_proxy and https_proxy
 * While behind proxy remove those (commented ‘em)
@@ -29,7 +27,7 @@ add following lines.
 export HTTP_PROXY=http://your.proxy.name:8080
 export HTTPS_PROXY=http://your.proxy.name:8080
 * docker-machine restart default
-* 
+
 ### Run docke-daemon behind proxy (on Ubuntu)
 * Add following line in /etc/default/docker
 export HTTP_PROXY=http://your.proxy.name:8080
